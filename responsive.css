@@ -1,0 +1,25 @@
+@media(max-width:880px){
+    #members{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(max-width:550px){
+    #home{
+        flex-direction: column;
+    }
+    #home-text{
+        width: 80%;
+        text-align: center;
+    }
+    #members{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .member{
+        text-align: center;
+    }
+    #about-contents{
+        flex-direction: column;
+    }
+}

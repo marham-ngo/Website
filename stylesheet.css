@@ -1,0 +1,110 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: rgb(31, 3, 11);
+    color: rgb(255, 255, 255);
+    font-family: 'Chivo', sans-serif;
+    
+}
+/* animations */
+@keyframes enter{
+    from{
+        background-color: rgb(231, 220, 120);
+    }
+    to{
+        background-color: black;
+    }
+}
+nav{
+    background-color: rgb(231, 220, 120);
+    color: black;
+}
+h1{
+    font-size: 54px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: rgb(241, 232, 144);
+    font-family: 'Great Vibes', cursive;
+    border-bottom: rgb(241, 232, 144) 2px solid;
+}
+h2{
+    font-size: 40px;
+    text-decoration: underline;
+}
+#home{
+    display: flex;
+    margin: auto;
+    
+    padding-bottom:40px;
+    padding-left: 20%;
+}
+#home-photo{
+    height:250px;
+    width:250px;
+    padding-top: 20px;
+}
+#home-text{
+    font-size: 20px;
+    width:40%;
+    text-align: right;
+    padding-top: 40px;
+    color: rgb(231, 220, 120);
+}
+#about-us{
+    padding: 30px 5%;
+    font-size: 18px;
+}
+#about-contents{
+    display: flex;
+}
+#our-mission{
+    padding:30px 20px;
+}
+#our-vision{
+    padding:30px 20px;
+}
+#get-involved, #photos, #our-work, #our-team{
+    padding: 30px 5%;
+}
+#get-involved h2{
+    text-decoration: none;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+#get-involved button{
+    height:70px;
+    width:200px;
+    background-color: rgb(231, 220, 120);
+}
+#get-involved button:hover{
+    background-color: rgba(233, 217, 76, 0.596);
+}
+#our-blogs{
+    padding: 30px 5%;
+    font-size: 24px;
+}
+#our-blogs a{
+    display: block;
+}
+#members img{
+    height:180px;
+    width:180px;
+    border-radius: 50%;
+}
+#members a{
+    display: block;
+    padding-top: 5px;
+}
+#members{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.member{
+    padding:30px 50px;
+}
+.member p{
+    font-size: 20px;
+    padding-top: 4%;
+    font-style: italic;
+    color: rgb(231, 220, 120);
+}
